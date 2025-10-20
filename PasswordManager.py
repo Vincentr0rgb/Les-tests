@@ -1,7 +1,3 @@
-#Objectif Clarifier le code
-import os
-
-
 #liste pour les nom et les mots de passe
 password_Name = []
 passwords = []
@@ -50,4 +46,5 @@ while exit == False:
     elif navigation == "3":
         isExit = input("Voulez vous quiter ? (y/n) ")
         if isExit == "y":
+
             exit = True
