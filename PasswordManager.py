@@ -1,3 +1,5 @@
+import os
+
 #liste pour les nom et les mots de passe
 password_Name = []
 passwords = []
@@ -48,3 +50,4 @@ while exit == False:
         if isExit == "y":
 
             exit = True
+
